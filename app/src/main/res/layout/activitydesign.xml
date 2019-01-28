@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/ic_backarrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+
+
+        android:background="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/ic_searchmenu"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        android:layout_toLeftOf="@+id/ic_morevert"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_search_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ic_morevert"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_more_vert_black_24dp"/>
+
+
+</RelativeLayout>
